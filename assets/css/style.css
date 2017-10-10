@@ -296,8 +296,8 @@ h2 {
 
 }
 
-/*The footer setting above keeps moving the footer on the portfolio page upwards, so I had to remove 
-absolute positioning for the portfolio, but need it for about me page and the contact page. Nev*/
+/*I had to use different footer setting for my portfolio page so I had to make different
+ids for the other two because if i wrote footer it affected all of them. */
 
 #portFooter {
 	bottom: 0;

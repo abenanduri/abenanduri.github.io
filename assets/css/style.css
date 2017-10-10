@@ -262,8 +262,9 @@ h2 {
  	color: #ffffff;
 }
 
-footer {
-	/*position: absolute;*/
+#aboutFooter
+#contactFooter {
+	position: absolute;
 	bottom: 0;
 	background: #666666;
 	width: 100%;
@@ -280,9 +281,9 @@ footer {
 }
 
 /*The footer setting above keeps moving the footer on the portfolio page upwards, so I had to remove 
-absolute positioning for the portfolio, but need it for about me page and the contact page.*/
+absolute positioning for the portfolio, but need it for about me page and the contact page. Nev*/
 
-/*#portFooter {
+#portFooter {
 	bottom: 0;
 	background: #666666;
 	width: 100%;
@@ -296,4 +297,4 @@ absolute positioning for the portfolio, but need it for about me page and the co
 	border-top: 7px solid #4aaaa5;
 	border-color: #4aaaa5;
 
-}*/
+}
